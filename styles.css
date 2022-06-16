@@ -71,17 +71,12 @@ body {
 }
 
 #header input::placeholder {
-  width: 120px;
-  height: 17px;
-  left: 58px;
-  top: 124px;
-
+  padding-left: 2rem;
+  text-align: left;
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
-
-  text-align: right;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
 
   color: #ffffff;
 
