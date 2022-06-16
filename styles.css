@@ -1,0 +1,141 @@
+/* ============================ GERAL ============================ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Lexend Deca';
+  font-size: 1.6rem;
+  text-align: center;
+
+  overflow: overlay;
+  background-color: #f9f9f9;
+}
+
+/* classe que põe limite no conteúdo e centraliza */
+.wrapper {
+  width: min(37.4rem, 100%);
+  margin-inline: auto;
+  padding-inline: 2rem;
+}
+
+section p {
+  padding-bottom: 1.5rem;
+}
+/* ============================ HEADER ============================ */
+
+section.header {
+  padding-top: 4.8rem;
+  width: 100%;
+  height: 20rem;
+
+  background: linear-gradient(90deg, #574ae8 0%, #3ea1db 100%);
+}
+
+section.header header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  padding-bottom: 4.1rem;
+}
+
+section.header header h2 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: white;
+}
+
+section.header input {
+  width: 100%;
+  height: 4rem;
+
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 0.5rem;
+  border: none;
+}
+
+section.header input::placeholder {
+  width: 120px;
+  height: 17px;
+  left: 58px;
+  top: 124px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+  text-align: right;
+
+  color: #ffffff;
+
+  opacity: 0.5;
+}
+
+/* ============================ POSTS ============================ */
+
+section.posts {
+  width: min(33.4rem, 100%);
+  height: auto;
+
+  margin-top: 5rem;
+  margin-inline: auto;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.05);
+  border-radius: 0.5rem;
+}
+
+section.posts header {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 1.5rem;
+  padding-top: 1.8rem;
+  padding-bottom: 2.7rem;
+}
+
+section.posts header h4 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+
+  text-align: left;
+
+  color: #717171;
+}
+
+section.posts h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  padding-bottom: 0.9rem;
+  color: #1a202c;
+}
+
+section.posts p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2.6rem;
+
+  color: #717171;
+}
