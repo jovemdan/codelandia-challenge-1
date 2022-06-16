@@ -145,3 +145,20 @@ body {
 
   color: #717171;
 }
+
+/* ============================ RESPONSIVE ============================ */
+
+@media (min-width: 1024px) {
+
+  /* ============================ GERAL ============================ */
+
+  .wrapper {
+    width: min(90rem, 100%);
+  }
+
+  #posts .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 2.7rem;
+  }
+}
