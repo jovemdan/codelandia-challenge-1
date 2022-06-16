@@ -35,12 +35,10 @@ body {
   padding-inline: 2rem;
 }
 
-section p {
-  padding-bottom: 1.5rem;
-}
+
 /* ============================ HEADER ============================ */
 
-section.header {
+#header {
   padding-top: 4.8rem;
   width: 100%;
   height: 20rem;
@@ -48,7 +46,7 @@ section.header {
   background: linear-gradient(90deg, #574ae8 0%, #3ea1db 100%);
 }
 
-section.header header {
+#header header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -56,13 +54,13 @@ section.header header {
   padding-bottom: 4.1rem;
 }
 
-section.header header h2 {
+#header header h2 {
   font-size: 1.8rem;
   font-weight: 400;
   color: white;
 }
 
-section.header input {
+#header input {
   width: 100%;
   height: 4rem;
 
@@ -71,7 +69,7 @@ section.header input {
   border: none;
 }
 
-section.header input::placeholder {
+#header input::placeholder {
   width: 120px;
   height: 17px;
   left: 58px;
@@ -91,19 +89,21 @@ section.header input::placeholder {
 
 /* ============================ POSTS ============================ */
 
-section.posts {
-  width: min(33.4rem, 100%);
-  height: auto;
+#posts .cards {
+  display: flex;
+  flex-direction: column;
+  gap: 2.7rem;
 
-  margin-top: 5rem;
-  margin-inline: auto;
+  padding-block: 4.8rem
+}
 
+#posts .card {
   background: #ffffff;
   box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.05);
   border-radius: 0.5rem;
 }
 
-section.posts header {
+#posts header {
   display: flex;
   justify-content: space-between;
   padding-inline: 1.5rem;
@@ -111,7 +111,7 @@ section.posts header {
   padding-bottom: 2.7rem;
 }
 
-section.posts header h4 {
+#posts .card header h4 {
   font-style: normal;
   font-weight: 400;
   font-size: 1.4rem;
@@ -122,7 +122,7 @@ section.posts header h4 {
   color: #717171;
 }
 
-section.posts h1 {
+#posts .cards h1 {
   font-style: normal;
   font-weight: 400;
   font-size: 1.8rem;
@@ -131,11 +131,16 @@ section.posts h1 {
   color: #1a202c;
 }
 
-section.posts p {
+
+#posts .cards p {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 2.6rem;
+  text-align: left;
+
+  padding-inline: 1.7rem;
+  padding-bottom: 1.5rem;
 
   color: #717171;
 }
