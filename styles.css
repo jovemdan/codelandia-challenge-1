@@ -35,14 +35,13 @@ body {
   padding-inline: 2rem;
 }
 
-
 /* ============================ HEADER ============================ */
 
 #header {
   padding-top: 4.8rem;
   top: 0;
   width: 100vw;
-  height: 20rem;
+  height: 25rem;
 
   background: linear-gradient(90deg, #574ae8 0%, #3ea1db 100%);
 }
@@ -61,26 +60,34 @@ body {
   color: white;
 }
 
-#header input {
+#header .input-group {
   width: 100%;
-  height: 4rem;
-
-  background: rgba(255, 255, 255, 0.2);
-  border-radius: 0.5rem;
-  border: none;
+  margin: 3rem auto;
+  display: flex;
+  justify-content: center;
 }
-
-#header input::placeholder {
-  padding-left: 2rem;
-  text-align: left;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 1.4rem;
-  line-height: 1.7rem;
-
-  color: #ffffff;
-
+#header .input-group input {
+  width: 90rem;
+  height: 6.5rem;
+  margin-left: 0 !important;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+#header .input-group input::placeholder {
+  color: #fff;
   opacity: 0.5;
+}
+#header .input-group input:focus {
+  outline: 0;
+}
+#header .input-group span {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  border-radius: 5px 0 0 5px;
+  color: #fff;
+  padding-right: 2rem;
 }
 
 /* ============================ POSTS ============================ */
@@ -90,7 +97,7 @@ body {
   flex-direction: column;
   gap: 2.7rem;
 
-  padding-block: 4.8rem
+  padding-block: 4.8rem;
 }
 
 #posts .card {
@@ -127,7 +134,6 @@ body {
   color: #1a202c;
 }
 
-
 #posts .cards p {
   font-style: normal;
   font-weight: 400;
@@ -144,7 +150,6 @@ body {
 /* ============================ RESPONSIVE ============================ */
 
 @media (min-width: 1024px) {
-
   /* ============================ GERAL ============================ */
 
   .wrapper {
