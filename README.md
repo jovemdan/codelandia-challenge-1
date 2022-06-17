@@ -8,10 +8,11 @@ Para o desenvolvimento deste site foram utilizadas as seguintes tecnologias:
 
 - HTML
 - CSS
+- JavaScript
 
 ## 💻 Projeto
 
-Criação de um site semântico e responsivo sobre a série Loki.
+Criação de um site semântico e responsivo de um blog.
 
 Este é um projeto desenvolvido a partir do desafio da comunidade [@Codelândia](https://discord.com/invite/QevDJqCzaY).
 
@@ -21,7 +22,7 @@ Este é um projeto desenvolvido a partir do desafio da comunidade [@Codelândia]
 
 Você pode visualizar o layout do projeto através dos links abaixo:
 
-- [Layout Web](https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?node-id=5854%3A2)
+- [Layout Web](https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?node-id=0%3A1)
 
 Lembrando que você precisa ter uma conta [Figma](http://figma.com/) para acessá-lo.
 
