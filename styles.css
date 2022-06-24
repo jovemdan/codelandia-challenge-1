@@ -25,7 +25,6 @@ body {
 /* classe que põe limite no conteúdo e centraliza */
 .wrapper {
   max-width: calc(90rem - 4rem);
-  /* width: min(37.4rem, 100%); */
   margin-inline: auto;
   padding-inline: 2rem;
 }
