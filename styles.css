@@ -13,24 +13,19 @@ html {
   scroll-behavior: smooth;
 }
 
-html,
-body {
-  width: 100%;
-  height: 100%;
-}
-
 body {
   font-family: 'Lexend Deca';
   font-size: 1.6rem;
   text-align: center;
 
-  overflow: overlay;
+  overflow: hidden auto;
   background-color: #f9f9f9;
 }
 
 /* classe que põe limite no conteúdo e centraliza */
 .wrapper {
-  width: min(37.4rem, 100%);
+  max-width: calc(90rem - 4rem);
+  /* width: min(37.4rem, 100%); */
   margin-inline: auto;
   padding-inline: 2rem;
 }
@@ -40,7 +35,6 @@ body {
 #header {
   padding-top: 4.8rem;
   top: 0;
-  width: 100vw;
   height: 25rem;
 
   background: linear-gradient(90deg, #574ae8 0%, #3ea1db 100%);
@@ -131,6 +125,7 @@ body {
   font-size: 1.8rem;
   line-height: 2.2rem;
   padding-bottom: 0.9rem;
+  padding-inline: 1.7rem;
   color: #1a202c;
 }
 
@@ -145,20 +140,4 @@ body {
   padding-bottom: 1.5rem;
 
   color: #717171;
-}
-
-/* ============================ RESPONSIVE ============================ */
-
-@media (min-width: 1024px) {
-  /* ============================ GERAL ============================ */
-
-  .wrapper {
-    width: min(90rem, 100%);
-  }
-
-  #posts .cards {
-    display: flex;
-    flex-direction: column;
-    gap: 2.7rem;
-  }
 }
